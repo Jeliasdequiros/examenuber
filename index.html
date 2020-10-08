@@ -27,25 +27,45 @@
     <meta name="theme-color" content="#fafafa" />
   </head>
   <body>
-    <!-- *** ESTRUCTURA SEMÁNTICA *** -->
-    <!-- Header (encabezado de la página, zona superior) -->
-    <header>
-      <!-- nav (el navegador de toda la web) -->
-      <nav>
-        <a href="" class="link1">link1</a>
-        <a href="" class="link2">link2</a>
-        <a href="" class="link3">link3</a>
-        <a href="" class="link4">link4</a>
-      </nav>
-    </header>
-    <!-- Main (centro de la página, zona central) -->
-    <main>
-      <!-- section y article (posibilidades dentro de main) -->
-    </main>
-    <!-- Footer (final de la página, zona inferior) -->
-    <footer>
-      <h4>&copy;Copyright</h4>
-    </footer>
+    <div class="container" >
+
+      <!-- *** ESTRUCTURA SEMÁNTICA *** -->
+      <!-- Header (encabezado de la página, zona superior) -->
+      <header>
+        <section class="navegador">
+          <h1>Uber</h1>
+          <nav>
+            <a href="linkhome.html" class="Home">Home</a>
+            <a href="linkcompany.html" class="Company">Company</a>
+            <a href="linksafety.html" class="Safety">Safety</a>
+            <a href="linkhelp.html" class="Help">Help</a>
+          </nav>
+          <h3 class="navegador_disfruta">Join now</h3>
+        </section>
+      </header> 
+      <main>
+        <img class="banner" src="img/tablet/brazo.png" alt="banner">
+        <section class="texto">
+          <h1 class="texto_principal" >On your mark</h1>
+          <ul class="texto_secundario">
+            <li class="texto_secundario_primero">You´re moving what matters</li>
+            <li class="texto_secundario_segundo">we're building news ways to support you.</li>
+          </ul>         
+          <article class="texto_datos">
+            <h4 class="texto_datos_mail">Your Email</h4>
+            <button class="texto_datos_boton">Get in touch</button>
+          </article> 
+          <article class="textofinal">
+            <img class="flecha" src="img/svg/flecha.svg" alt="flecha">
+            <h3 class="scroll">Scroll down</h3> 
+          </article>
+        </section>
+      </main>
+      <!-- Footer (final de la página, zona inferior) -->
+      <footer>
+       
+      </footer>
+    </div>
 
     <!-- *** Google Analytics *** -->
     <script src="https://www.google-analytics.com/analytics.js" async></script>
